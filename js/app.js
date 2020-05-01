@@ -107,7 +107,7 @@ UI.prototype.addCustomer = function(customer){
     const div = document.createElement('div');
     div.classList.add('person');
     div.innerHTML = `
-    <img src="img/person-${random}.jpeg" alt="person" class="person_thumbnail">
+    <img src="../img/person-${random}.jpeg" alt="person" class="person_thumbnail">
     <h4 class="person_name">${customer.name}</h4>
     <h4 class="person_lastname">${customer.lastname}</h4>
     `;
